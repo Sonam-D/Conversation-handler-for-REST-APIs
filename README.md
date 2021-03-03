@@ -11,7 +11,7 @@ name, invocation date, and invocation time.
 - If the user name’s starts with N-Z, a simple XML message stating: user’s
 name, invocation date, and invocation time.
 Step 2:
-Input: A file with a state diagram specification that describes the coordination protocols for the 10 Web services. The transitions may be labeled with conditions
+Input: A file with a state diagram specification that describes the coordination protocols for the 10 Web services. The transitions.txt may be labeled with conditions
 (document returned by the service invocation). Your implementation and design should work for any coordination protocol.
 Based on the current state of the user’s conversation with the Web services, the system shows (on a Web interface) the services that the user will be able to invoke
 from that state, until the end of the coordination protocol. Each time a user selects service, that service is invoked and the resulting message is shown to the user.
